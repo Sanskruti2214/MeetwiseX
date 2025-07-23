@@ -1,0 +1,25 @@
+<div>
+    <div class="schedule">
+        <h1>Schedule Meeting</h1>
+        <form #scheduleMeet="ngForm" class="common-form"  (ngSubmit)="meetScheduling(scheduleMeet.value)">
+            <select placeholder="Select Room Type" class="form-input" name="roomsType" [(ngModel)]="roomsType">
+                <option *ngFor="let type of types" [value]="type">{{type}}</option>
+            </select>
+            <input type="number" class="form-input" placeholder="Enter the Building Id" name="buildingId" [(ngModel)]="buildingId"
+            required />
+            <input type="text" class="form-input" placeholder="Enter the Building Name" name="buildingName" [(ngModel)]="buildingName"
+            required/>
+            <input type="number" class="form-input" placeholder="Enter the Floor Id" name="floorId" [(ngModel)]="floorId"
+            required/>
+            <input type="date" class="form-input" placeholder="Enter the Date" name="date" [(ngModel)]="date"
+            required/>
+            <input type="time" class="form-input" placeholder="Enter the Duration" name="duration" [(ngModel)]="duration"
+            required/>
+            <input type="time" class="form-input" placeholder="Enter the start time" step="1" name="officeStartTime" [(ngModel)]="officeStartTime"
+            required/>
+            <input type="time" class="form-input" placeholder="Enter the End time" step="1" name="officeEndTime" [(ngModel)]="officeEndTime"
+            required/>
+            <button class="form-button" [disabled]="scheduleMeet.invalid">Schedule</button>
+        </form>
+    </div>
+</div>

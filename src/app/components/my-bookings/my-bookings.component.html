@@ -1,0 +1,31 @@
+<div *ngIf="loading">
+    <h1 class='displayBookings' *ngIf="MyBookings.length==0">No Bookings Yet!!</h1>
+</div>
+<div>
+    <table class="booktable" border="2" *ngIf="MyBookings && MyBookings.length>0">
+        <thead>
+            <tr>
+                <th>Booking Id</th>
+                <th>Room Id</th>
+                <th>Room Type</th>
+                <th>Building No</th>
+                <th>Floor No</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+                <th>Is Expired</th>
+            </tr>
+        </thead>
+        <tbody *ngIf="MyBookings">
+            <tr *ngFor="let booking of MyBookings">
+                <td>{{booking.bookingId}}</td>
+                <td>{{booking.roomsId}}</td>
+                <td>{{booking.roomsType}}</td>
+                <td>{{booking.buildingId}}</td>
+                <td>{{booking.floorId}}</td>
+                <td>{{booking.startTime}}</td>
+                <td>{{booking.endTime}}</td>
+                <td>{{booking.isExpired}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

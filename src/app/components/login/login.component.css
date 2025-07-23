@@ -1,0 +1,15 @@
+.login-page{
+    padding:8%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 1px 3px blueviolet;
+    /* border:2px solid green; */
+}
+.login{
+    margin-top:25px;
+    margin-bottom:80px;
+    /* color:blueviolet; */
+}
+.login h1{
+    margin-bottom:36px;
+}

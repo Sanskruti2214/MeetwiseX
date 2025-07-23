@@ -1,0 +1,13 @@
+.addRoom{
+    margin-top:50px;
+    text-align: center;
+    /* border:2px solid green; */
+}
+.roomInput h1{
+    margin-bottom:30px;
+    color:black;
+}
+.roomInput input{
+    display:inline-block;
+    /* font-size:35px; */
+}
