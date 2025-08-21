@@ -6,40 +6,61 @@ We get it. MeetWise X makes room booking effortless — just pick a time and we�
 We developed MeetWise X, a web-based tool that streamlines meeting room bookings by detecting available slots and suggesting the earliest options for unscheduled calls — significantly reducing coordination time and eliminating scheduling conflicts.
 
 ##Problem Solved
-Initial Bookings - admin
-<img width="1919" height="976" alt="{056F2D13-9F2F-4D56-B164-0B6D86E47317}" src="https://github.com/user-attachments/assets/5eec19c5-cff9-4435-8d74-7837ea97f1ae" />
+Initial Bookings 
+<img width="1918" height="964" alt="image" src="https://github.com/user-attachments/assets/eeaeaaa5-2441-44c4-b947-27fd10aea773" />
 
 New Booking
-<img width="1917" height="977" alt="{1DD473BB-F8D0-4E41-9B8E-0CA901AE93D6}" src="https://github.com/user-attachments/assets/ad17b3f9-b64a-4052-a57d-80c1a488feb0" />
+<img width="1916" height="969" alt="image" src="https://github.com/user-attachments/assets/6940324c-75f0-43f7-88f9-064a8c152f61" />
 
-Let's See the result
-<img width="1914" height="972" alt="{368FFD16-917B-448E-84E7-CECA2E5398BA}" src="https://github.com/user-attachments/assets/a3e71a89-92c6-47db-beb3-c54106febfb8" />
+Result
+<img width="1914" height="959" alt="image" src="https://github.com/user-attachments/assets/82aa06c4-ecea-4a3d-9b45-ae665e54eaaa" />
 
-DB
-<img width="1918" height="1021" alt="{73553B43-113B-4637-915A-5ABE44DF354B}" src="https://github.com/user-attachments/assets/f6d706cb-90ee-4a47-afd5-2f8daa3f9967" />
-![Uploading {37D504FA-94BB-46A2-BDF6-1D5AF2C154D6}.png…]()
+Validation: handling all user bookings for a given company
+
+<img width="1915" height="963" alt="image" src="https://github.com/user-attachments/assets/03722912-8198-453c-bff5-df7d25f43e32" />
+
+<img width="1919" height="970" alt="image" src="https://github.com/user-attachments/assets/7d623dbd-e297-4fb4-b81f-112408fd2078" />
 
 
 
 ## Working
 Home Page
-<img width="1918" height="977" alt="{F0C3FD4C-6E5A-479F-AA20-DB1616906DB4}" src="https://github.com/user-attachments/assets/b3d95ae3-edb1-4327-8488-3f5cef27e14b" />
+<img width="1920" height="967" alt="image" src="https://github.com/user-attachments/assets/02282432-9ee9-44b0-b9d6-a8e147a6326d" />
 
 Sign Up Page
-<img width="1908" height="972" alt="{0C12EB84-328A-4CC9-A348-BDD3E1636F52}" src="https://github.com/user-attachments/assets/8b9560e9-85ff-43fb-ab42-042688f95a95" />
+<img width="1920" height="962" alt="image" src="https://github.com/user-attachments/assets/5f75f3a6-7332-4419-b674-ea6dc6a72927" />
+
+<img width="1920" height="960" alt="image" src="https://github.com/user-attachments/assets/dc06660f-45d8-447d-8e11-e8432803b6e7" />
 
 Login Page
-<img width="1895" height="968" alt="{AE4D5F26-30F6-4854-B74A-D07121E6347D}" src="https://github.com/user-attachments/assets/b4ca74df-4f64-45f0-a4c5-829860edc089" />
+<img width="1920" height="970" alt="image" src="https://github.com/user-attachments/assets/f7a6e4d2-56e5-446f-ba41-c7a7f22cd40b" />
+
+Main Page - Admin Role
+<img width="1914" height="958" alt="image" src="https://github.com/user-attachments/assets/b5462d89-2824-4640-8dc0-aa985cdbb6e1" />
+
 
 Main Page - User Role
-<img width="1918" height="970" alt="{9518560D-B47D-4543-9385-47FFACD2E123}" src="https://github.com/user-attachments/assets/aa888eb1-f6b6-43df-9908-b4a3f2bd9647" />
+<img width="1911" height="970" alt="image" src="https://github.com/user-attachments/assets/a3fc23eb-a022-4927-ab5f-ab499c7a526c" />
 
 Reserving Room
-<img width="1913" height="971" alt="{83E973B8-B42C-4779-937E-6762F3E58614}" src="https://github.com/user-attachments/assets/9283ad0f-4209-449a-87fd-e1846eb721ad" />
-<img width="1920" height="975" alt="{7E73FCDB-D99C-4D54-BE73-90200E4778A2}" src="https://github.com/user-attachments/assets/f6faf8bb-805c-4ec2-98fc-8f0f3d351c02" />
+<img width="1915" height="964" alt="image" src="https://github.com/user-attachments/assets/b59a3c5f-1341-4f00-bc9a-ccd5f8be0cd8" />
+
+<img width="1917" height="962" alt="image" src="https://github.com/user-attachments/assets/cc5946dc-b808-4649-87f0-dc4a49df2eae" />
+
+<img width="1906" height="966" alt="image" src="https://github.com/user-attachments/assets/fada4911-6e27-4a19-9621-4a843bebbe11" />
 
 Scheduling Meet
-<img width="1918" height="979" alt="{649D9019-4E42-4515-AC55-DA201B868A68}" src="https://github.com/user-attachments/assets/1311569c-ce36-4024-ac2d-c8aa50a745d3" />
+<img width="1912" height="1016" alt="image" src="https://github.com/user-attachments/assets/5a883723-16fb-4623-a977-97a58095ceae" />
+
+<img width="1914" height="969" alt="image" src="https://github.com/user-attachments/assets/03de23df-df57-4870-a59c-497753130d59" />
+
+<img width="1919" height="965" alt="image" src="https://github.com/user-attachments/assets/48bbec31-7b5f-4609-aeaf-45b9ae2efbd4" />
+
+
+
+
+
+
 
 
 
