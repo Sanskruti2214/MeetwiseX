@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cdP12zr76tiZIywbAJTtlUZG24Mc35WzsrRKojOX4Ck=",
+  "Source": "goalPlannerBackend",
+  "BasePath": "_content/goalPlannerBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

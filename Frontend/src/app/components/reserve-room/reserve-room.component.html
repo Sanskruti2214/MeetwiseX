@@ -1,0 +1,21 @@
+<div>
+    <div class="reserve">
+        <h1>Reserving the Room</h1>
+        <form #reserveRoom="ngForm" class="common-form"  (ngSubmit)="reservingRoom(reserveRoom.value)">
+            <select placeholder="Select Room Type" class="form-input" name="roomsType" [(ngModel)]="roomsType">
+                <option *ngFor="let type of types" [value]="type">{{type}}</option>
+            </select>
+            <input type="number" class="form-input" placeholder="Enter the Building Id" name="buildingId" [(ngModel)]="buildingId"
+            required />
+            <input type="text" class="form-input" placeholder="Enter the Building Name" name="buildingName" [(ngModel)]="buildingName"
+            required/>
+            <input type="number" class="form-input" placeholder="Enter the Floor Id" name="floorId" [(ngModel)]="floorId"
+            required/>
+            <input type="datetime-local" [min]="minDateTime" class="form-input" placeholder="Enter the start time" name="startTime" [(ngModel)]="startTime"
+            required/>
+            <input type="datetime-local" [min]="minDateTime" class="form-input" placeholder="Enter the End time" name="endTime" [(ngModel)]="endTime"
+            required/>
+            <button class="form-button" [disabled]="reserveRoom.invalid">Book</button>
+        </form>
+    </div>
+</div>

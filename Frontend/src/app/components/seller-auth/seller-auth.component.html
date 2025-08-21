@@ -1,0 +1,23 @@
+<div class="seller-auth">
+    <div class="sign-up">
+        <h1>sign-up</h1>
+        <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form">
+            <input class="form-input" type="email" placeholder="Enter Email: " name="email" [(ngModel)]="userEmail"
+                #emailRef="ngModel" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                [ngClass]="{'invalid-input': emailRef.invalid && emailRef.touched}" />
+            <input class="form-input" type="text" placeholder="Enter Name: " name="username" [(ngModel)]="userName"
+                required #nameRef="ngModel" pattern=".{4,}"
+                [ngClass]="{'invalid-input': nameRef.invalid && nameRef.touched}" />
+            <input class="form-input" type="text" placeholder="Enter Company Name: " name="companyname"
+                [(ngModel)]="companyName" required #companynameRef="ngModel" pattern="^[A-Za-z0-9 &()'-]{2,50}$"
+                [ngClass]="{'invalid-input': companynameRef.invalid && companynameRef.touched}" />
+            <input class="form-input" type="text" placeholder="Enter Company Id: " name="companyUniqueId"
+                [(ngModel)]="companyUniqueId" required #companyUniqueIdRef="ngModel" pattern="^[A-Za-z0-9]{4,10}$"
+                [ngClass]="{'invalid-input': companyUniqueIdRef.invalid && companyUniqueIdRef.touched}" />
+            <input class="form-input" type="password" placeholder="Enter Password: " name="password"
+                [(ngModel)]="userPassword" required #passwordRef="ngModel" pattern=".{8,}"
+                [ngClass]="{'invalid-input':passwordRef.invalid && passwordRef.touched}" />
+            <button type="submit" class="form-button" [disabled]="sellerSignUp.invalid">Sign Up</button>
+        </form>
+    </div>
+</div>

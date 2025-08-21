@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet>');
+body{
+    font-family:'Ancizar Serif',sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #e8f9fd;
+}
+.container{
+    box-sizing: border-box;
+    margin-left:2%;
+    margin-right:2%;
+}
+.common-form{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    margin:auto;
+}
+.form-input,.form-selector{
+    height:35px;
+    margin-bottom:15px;
+    border:1px solid black;
+    padding-left:15px;
+    border-radius: 4px;
+}
+.form-button{
+    height:35px;
+    border:1px solid black;
+    color:black;
+    font-weight: 500;
+    font-size: 17px;
+    cursor:pointer;
+    border-radius: 4px;
+}
+.invalid-input{
+    border:1px solid red;
+}
+.disabled{
+    border:1px solid red;
+}

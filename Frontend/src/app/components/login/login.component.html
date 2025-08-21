@@ -1,0 +1,31 @@
+<div class="login-page">
+    <div class="login">
+        <h1>Login</h1>
+        <form #loginform="ngForm" (ngSubmit)="login(loginform.value)" class="common-form">
+            <input class="form-input" type="text"  placeholder="Enter Email" 
+                name="email" 
+                [(ngModel)]="userEmail"
+                #emailRef="ngModel"
+                required
+                pattern="[a-z0-9._%+-]+@+[a-z0-9.-]+\.+[a-z]{2,4}$"
+                [ngClass]="{'invalid-input': emailRef.invalid && emailRef.touched}"
+            />
+            <input class="form-input" type="text"  placeholder="Enter CompanyId" 
+                name="companyId" 
+                [(ngModel)]="companyId"
+                #companyIdRef="ngModel"
+                required
+                pattern="^[A-Za-z0-9]{4,10}$"
+                [ngClass]="{'invalid-input': companyIdRef.invalid && companyIdRef.touched}"
+            />
+            <input  class="form-input" type="password" placeholder="Enter Password" 
+                name="password"
+                [(ngModel)]="userPassword"
+                required 
+                #passwordRef="ngModel"
+                pattern=".{8,}" 
+                [ngClass]="{'invalid-input':passwordRef.invalid && passwordRef.touched}" />
+            <button class="form-button" [disabled]="loginform.invalid">Login</button>
+        </form>
+    </div>
+</div>

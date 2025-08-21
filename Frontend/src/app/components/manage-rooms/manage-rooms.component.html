@@ -1,0 +1,16 @@
+<div class="addRoom"> 
+    <div class="roomInput">
+        <h1>Room Details</h1>
+        <form #roomDetails="ngForm" class="common-form" (ngSubmit)="addRoomDetails(roomDetails.value)">
+            <input type="number" class="form-input" placeholder="Enter the Room Id" name="roomid" [(ngModel)]="roomId"
+            required />
+            <select placeholder="Select Room Type" class="form-selector" name="roomtype" [(ngModel)]="roomType">
+                <option *ngFor="let type of types" [value]="type">{{type}}</option>
+            </select>
+            <input type="number" class="form-input" placeholder="Enter the Building ID " name="buildingId" [(ngModel)]="buildingId" required />
+            <input type="text" class="form-input" placeholder="Enter the Building Name " name="buildingName" [(ngModel)]="buildingName" required />
+            <input type="number" class="form-input" placeholder="Enter the Floor Number" name="floorId" [(ngModel)]="floorId" required/>
+            <button class="form-button" [disabled]="roomDetails.invalid" >Add Room</button>
+        </form>
+    </div>
+</div>
